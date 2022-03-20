@@ -12,3 +12,11 @@ It does not help to check the local cert file, it is what is displayed to the pu
 4. Replace YOUR-API-AUTH-HERE in cert-search.sh
 5. Replace YOU-IP-HERE in days-left-of-cert.sh
 6. Monitor days-left-of-cert.log .... TODO for my part. I am currently testing this setup
+
+Requires:
+ * curl
+ * jq
+ * tr
+ * grep
+ * sort
+ * uniq
